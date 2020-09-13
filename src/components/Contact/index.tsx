@@ -8,7 +8,7 @@ const Contact = () => {
     <div className="bx--col">
       <Heading>Contato</Heading>
       <div className="bx--row">
-        <div className="bx--col-lg-3 bx--col-sm-16 pb-03">
+        <div className="bx--col-lg-3 bx--col-sm-12 pb-03">
           <Button
             kind="secondary"
             renderIcon={Phone16}
@@ -19,7 +19,7 @@ const Contact = () => {
             WhatsApp
           </Button>
         </div>
-        <div className="bx--col-lg-3 bx--col-sm-16 pb-03">
+        <div className="bx--col-lg-3 bx--col-sm-12 pb-03">
           <Button
             kind="secondary"
             renderIcon={LogoInstagram16}
@@ -30,12 +30,12 @@ const Contact = () => {
             Instagram
           </Button>
         </div>
-        <div className="bx--col-lg-3 bx--col-sm-16 pb-03">
+        <div className="bx--col-lg-3 bx--col-sm-12 pb-03">
           <Button kind="secondary" renderIcon={Email16} iconDescription="Email" href="mailto:silviasrabelo@hotmail.com">
             E-mail Principal
           </Button>
         </div>
-        <div className="bx--col-lg-3 bx--col-sm-16 pb-03">
+        <div className="bx--col-lg-3 bx--col-sm-12 pb-03">
           <Button
             kind="secondary"
             renderIcon={Email16}

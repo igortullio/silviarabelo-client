@@ -23,8 +23,8 @@ const Curriculum = () => {
             <Heading size="small">Premiações e Reconhecimento</Heading>
             <Text>
               <p>Honra ao mérito (Izalci Senador - 2019)</p>
-              <p>Premiação melhores do ano de 2018</p>
               <p>Premiação melhores do ano de 2019</p>
+              <p>Premiação melhores do ano de 2018</p>
             </Text>
           </Card>
         </div>
@@ -51,14 +51,16 @@ const Curriculum = () => {
           <Card>
             <Heading size="small">Cursos de Síndico e participações</Heading>
             <Text>
+              <p>Entrevista na rádio Ativa FM 98.1 (Programa inteligência condominial - 2019)</p>
               <p>Certificado de curso presencial (qualisíndicos/abraasp - 2019)</p>
               <p>Certificado de capacitação para agente de portaria (tork administração 2019)</p>
               <p>
-                Certificado de curso básico de profissionalização em gestão condominial (81º curso taguatinga norte)
+                Certificado de curso básico de profissionalização em gestão condominial (81º curso Taguatinga norte)
               </p>
               <p>Participação e entrevista em programa rádio(cidades e condomínios 2019)</p>
               <p>Participação e entrevista em programa rádio (unasíndico/metrópoles 2019)</p>
               <p>Participação e entrevista em programa tv (condomínios news 2019)</p>
+              <p>Certificado de curso presencial (abraasp dia da mulher síndica 2018 e 2019)</p>
               <p>Certificado de curso presencial (9º enbrassp -2018)</p>
               <p>Certificado de curso presencial (3º regiocondo rodada de negócios e soluções águas claras - 2018)</p>
               <p>Entrevista presencial (rádio 911psa - 2018)</p>
@@ -68,7 +70,6 @@ const Curriculum = () => {
               <p>III Ciclo de debates em gestão condominial (2017)</p>
               <p>II Ciclo de debates em gestão condominial (2017)</p>
               <p>Palestra de sustentabilidade àos síndicos de águas claras (projeto arapoti)</p>
-              <p>Certificado de curso presencial (abraasp dia da mulher síndica 2018 e 2019)</p>
             </Text>
           </Card>
         </div>
