@@ -1,22 +1,57 @@
 {
-  "name": "with-carbon-components",
-  "version": "0.0.1",
-  "description": "An example of Nextjs setup with carbon-components-react from IBM",
-  "main": "index.js",
+  "name": "client-silviarabelo",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "author": "Igor Túllio",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint src --max-warnings=0"
   },
-  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.js?(x)": [
+      "yarn lint --fix"
+    ]
+  },
   "dependencies": {
     "@carbon/icons-react": "^10.3.0",
     "carbon-components": "^10.3.0",
     "carbon-components-react": "^7.3.0",
     "carbon-icons": "^7.0.7",
     "next": "latest",
+    "next-pwa": "^3.1.4",
     "node-sass": "^4.12.0",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.0",
+    "styled-media-query": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/carbon-components-react": "^7.10.9",
+    "@types/carbon__icons-react": "^10.17.0",
+    "@types/node": "^14.6.4",
+    "@types/react": "^16.9.49",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/styled-components": "^5.1.3",
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/parser": "^4.1.0",
+    "babel-plugin-styled-components": "^1.11.1",
+    "eslint": "^7.9.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.3.0",
+    "prettier": "^2.1.1",
+    "typescript": "^4.0.2"
   }
 }
